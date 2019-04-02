@@ -25,8 +25,10 @@
     }
   },
   "required": [ "locality", "region", "country-name" ],
+
   "dependencies": {
     "post-office-box": [ "street-address" ],
     "extended-address": [ "street-address" ]
-  }
+  },
+  "additionalProperties": false
 }
